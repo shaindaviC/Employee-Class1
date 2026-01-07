@@ -61,8 +61,8 @@ class program
     static void Main()
     {
         employeeDal dal = new employeeDal();
-        dal.AddEmployee(new Employee(1, "Siva", 25000));
-        dal.AddEmployee(new Employee(2, "Harini", 30000));
+        dal.AddEmployee(new Employee(1, "Shain", 25000));
+        dal.AddEmployee(new Employee(2, "devi", 30000));
         Console.WriteLine(dal.SearchEmployee(1));
         dal.DeleteEmployee(2);
         Employee[] employees = dal.GetAllEmployeesListAll();
